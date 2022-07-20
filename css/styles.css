@@ -33,6 +33,11 @@ body
 .end-tel{
     text-decoration: none;
 }
+.logo{
+    background-color: #FFFFFF;
+}
+
+
 
 .logo-titel{
     font-family: 'Raleway',sans-serif;
@@ -61,6 +66,9 @@ font-family: 'Raleway', sans-serif;
 }
 .logo-list-item:hover{
     color: #2196F3;
+}
+.contacts-list{
+
 }
 
 .contacts-mail{
@@ -112,7 +120,9 @@ font-family: 'Roboto',sans-serif;
         border-radius: 4px;
         cursor: pointer;
 }
-
+.info{
+    padding-top: 94px;
+}
 
 .info-title{
     font-weight: 700;
@@ -129,6 +139,7 @@ font-family: 'Roboto',sans-serif;
         letter-spacing: 0.03em;
         color: #757575;
 }
+
 .robota-titel{
     font-weight: 700;
     font-size: 36px;
@@ -136,6 +147,10 @@ font-family: 'Roboto',sans-serif;
         text-align: center;
         letter-spacing: 0.03em;
         color: #212121;
+}
+.robota{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .team-titel{
     font-weight: 700;
