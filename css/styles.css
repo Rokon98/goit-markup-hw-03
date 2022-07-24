@@ -38,7 +38,6 @@ body
 }
 
 
-
 .logo-titel{
     font-family: 'Raleway',sans-serif;
         font-style: normal;
@@ -66,9 +65,6 @@ font-family: 'Raleway', sans-serif;
 }
 .logo-list-item:hover{
     color: #2196F3;
-}
-.contacts-list{
-
 }
 
 .contacts-mail{
