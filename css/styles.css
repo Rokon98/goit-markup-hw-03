@@ -35,6 +35,7 @@ body
 }
 .logo{
     background-color: #FFFFFF;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .container{
@@ -116,11 +117,17 @@ font-family: 'Raleway', sans-serif;
     color: #2196F3;
 }
 .osnov{
-    width: 1600px;
+    background-color: #2F303A;
+}
+.container-osnov{
+    margin-left: auto;
+    margin-right: auto;
+        width: 1200px;
         height: 600px;
         left: 0px;
         top: 80px;
-    background-color: #212121;
+    
+        background: #2F303A;
 }
 .osnov-title{
     position: absolute;
@@ -166,8 +173,9 @@ position: absolute;
     display: flex;
 
 }
-.info-item:not(:last-child){
+.info-item{
     margin-right: 30px;
+    
 }
 
 .info-title{
@@ -194,13 +202,19 @@ position: absolute;
         text-align: center;
         letter-spacing: 0.03em;
         color: #212121;
+        margin-bottom: 50px;
 }
+
 .robota{
     padding-top: 94px;
     padding-bottom: 94px;
 }
 .robota-list{
     display: flex;
+    justify-content: center;
+}
+.robota-item{
+    margin-right: 30px;
 }
 .team{
     background-color: #F5F4FA;
@@ -215,6 +229,7 @@ position: absolute;
         text-align: center;
         letter-spacing: 0.03em;
         color: #212121;
+        margin-bottom: 50px;
 }
 .team-list-titel{
     font-weight: 500;
@@ -227,6 +242,10 @@ position: absolute;
 .team-list{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+}
+.team-item{
+    margin-right: 30px;
 }
 .team-pre-item{
     font-weight: 400;
@@ -246,6 +265,7 @@ position: absolute;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 94px;
 }
 .menu-item{
     margin-right: 8px;
@@ -274,10 +294,16 @@ font-family: 'Roboto',sans-serif;
 .option-list{
     display: flex;
     flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    margin-top: 94px;
+    margin-bottom: 94px;
 }
+
 .option-item{
-    width: 370px;
-    height: 404px;
+margin-right: 30px;
+outline: 1px solid #EEEEEE;
+margin-bottom: 30px;
     
 }
 
@@ -297,6 +323,7 @@ font-family: 'Roboto',sans-serif;
 }
 .end{
     background-color: #2F303A;
+
 }
 .container-end{
     margin-left: auto;
@@ -325,6 +352,7 @@ font-family: 'Roboto',sans-serif;
 }
 .end-list{
     font-style: normal;
+    padding: 0;
 
 }
 
