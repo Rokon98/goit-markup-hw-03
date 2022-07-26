@@ -42,7 +42,8 @@ body
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
-    background-color: #FFFFFF;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .logo-titel{
@@ -116,8 +117,10 @@ font-family: 'Raleway', sans-serif;
 .contacts-tel:hover{
     color: #2196F3;
 }
-.osnov{
+.hero{
     background-color: #2F303A;
+    text-align: center;
+
 }
 .container-osnov{
     margin-left: auto;
@@ -126,34 +129,27 @@ font-family: 'Raleway', sans-serif;
         height: 600px;
         left: 0px;
         top: 80px;
-    
-        background: #2F303A;
 }
 .osnov-title{
-    position: absolute;
-        width: 696px;
-        height: 120px;
-        left: 452px;
-        top: 280px;
-    
-        font-family: 'Roboto';
+    width: 696px;
+    margin-bottom: 30px;
+    font-family: 'Roboto';
         font-style: normal;
         font-weight: 900;
         font-size: 44px;
         line-height: calc(60/44);
-        text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
     
         color: #FFFFFF;
 }
 .osnov-btn{
-    margin-top: 30px;
-position: absolute;
-    width: 216px;
-    height: 50px;
-    left: 692px;
-    top: 430px;
+   padding: 10px 32px;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.88;
+   letter-spacing: 0.06em;
+   border: transparent;
     color: #FFFFFF;
 
     background: #2196F3;
@@ -185,6 +181,7 @@ position: absolute;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #212121;
+         margin-bottom: 10px;
     
 }
 .info-pre-item{
@@ -222,6 +219,7 @@ position: absolute;
 .container-team{
     background-color: #F5F4FA;
 }
+
 .team-titel{
     font-weight: 700;
     font-size: 36px;
@@ -260,6 +258,7 @@ position: absolute;
     margin-right: auto;
     width: 1200px;
     background-color: #FFFFFF;
+
 }
 .menu-list{
     display: flex;
@@ -269,6 +268,7 @@ position: absolute;
 }
 .menu-item{
     margin-right: 8px;
+    margin-right: 0;
 }
 .menu-btn{
 font-family: 'Roboto',sans-serif;
@@ -301,9 +301,7 @@ font-family: 'Roboto',sans-serif;
 }
 
 .option-item{
-margin-right: 30px;
-outline: 1px solid #EEEEEE;
-margin-bottom: 30px;
+width: 370px;
     
 }
 
@@ -312,7 +310,8 @@ margin-bottom: 30px;
         font-size: 18px;
         line-height: calc(36/18);
         letter-spacing: 0.06em;
-        color: #212121
+        color: #212121;
+        margin-bottom: 4px;
 }
 .option-pre-title{
     font-weight: 400;
@@ -323,6 +322,8 @@ margin-bottom: 30px;
 }
 .end{
     background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
 
 }
 .container-end{
