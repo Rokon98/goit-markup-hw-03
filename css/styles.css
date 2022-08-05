@@ -8,6 +8,8 @@ body
 
 .logo{
     background-color: #ffff;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 h1,
 h2,
@@ -16,8 +18,8 @@ h4,
 h5,
 h6,
 p,
-ui{
-    padding: 0;
+ul{
+    margin: 0;
 }
 .logo-text{
     text-decoration: none;
@@ -143,18 +145,12 @@ font-family: 'Raleway', sans-serif;
 }
 .hero{
     padding-top: 200px;
-    padding-bottom: 280px;
+    padding-bottom: 200px;
     text-align: center;
     background-color: #2F303A;
 
 }
-.container-osnov{
 
-        width: 1200px;
-        height: 600px;
-        left: 0px;
-        top: 80px;
-}
 .osnov-title{
     width: 696px;
     margin: 0 auto 30px;
@@ -186,12 +182,7 @@ font-family: 'Raleway', sans-serif;
 .info{
     padding-top: 94px;
 }
-.container-info{
-    margin-left: auto;
-    margin-right: auto;
-    width: 1200px;
 
-}
 .info-list{
     display: flex;
 
@@ -242,10 +233,10 @@ font-family: 'Raleway', sans-serif;
 }
 .team{
     background-color: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
-.container-team{
-    background-color: #F5F4FA;
-}
+
 
 .team-titel{
     font-weight: 700;
@@ -284,14 +275,9 @@ font-family: 'Raleway', sans-serif;
         letter-spacing: 0.03em;
         color: #757575;
 }
-.container-main{
-    margin-top: 94px;
-    margin-bottom: 94px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1200px;
-    background-color: #ffff;
-
+.menu{
+padding-top: 94px;
+padding-bottom: 94px;
 }
 .menu-list{
     display: flex;
@@ -300,32 +286,9 @@ font-family: 'Raleway', sans-serif;
     margin-bottom: 50px;
     gap: 8px;
 }
-.menu-item{
-    margin-right: 8px;
-    margin-right: 0;
-}
-.menu-btn{
-font-family: 'Roboto',sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: calc(26/16);
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
 
-    border-radius: 4px solid #F5F4FA;
-    cursor: pointer;
-}
-.menu-btn:hover{
-    background-color: #2196F3;
-}
-.menu-btn:focus,
-.menu-btn:hover{
-    color: #FFFFFF;
-     
 
-}
+    
 .option-list{
     display: flex;
     flex-wrap: wrap;
@@ -369,12 +332,7 @@ width: 370px;
     padding-bottom: 60px;
 
 }
-.container-end{
-    margin-left: auto;
-    margin-right: auto;
-    width: 1200px;
-    background-color: #2F303A;
-}
+
 .logo-pre-title{
         color: #FFFFFF;
 }
