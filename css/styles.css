@@ -14,18 +14,59 @@ body{
     --cloud-background: #F4F4FD;
     --cornflower-color: #E7E9FC;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin: 0;
+}
+ul,
+ol{
+    padding: 0;
+}
+.container{
+    width: 1128px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 .link{
     text-decoration: none;
 }
 .list{
 list-style: none;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 
 /*HEADER*/
 .header {
     background-color: var(--white-background);
 }
 .header-nav {
+    display: flex;
+    align-items: center;
 }
 .header-nav-logo {
     color: var(--iris-color);
@@ -41,6 +82,9 @@ text-transform: uppercase;
 }
 
 .header-nav-list{
+    display: flex;
+    margin-left: 76px;
+    gap: 40px;
 
 }
 .header-nav-link {
@@ -58,6 +102,8 @@ letter-spacing: 0.02em;
     font-style: normal;
 }
 .address-list {
+    display: flex;
+    gap: 40px;
 }
 .address-link {
     color: var(--slate-color);
@@ -73,9 +119,16 @@ letter-spacing: 0.02em;
 /*MAIN*/
 /*HERO*/
 .hero{
+padding-bottom: 120px;
+background-color: var(--navyblue-color);
+}
+.hero-container{
+    padding: 188px;
     background-color: var(--navyblue-color);
 }
 .hero-title{
+    width: 496px;
+    margin-bottom: 48px;
     color: var(--white-background);
     font-size: 56px;
 font-weight: 700;
@@ -92,10 +145,13 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 background: var(--iris, #4D5AE5);
 cursor: pointer;
+border-radius: 4px;
+padding: 16px 32px;
 }
 .hero-btn:hover,
 .hero-btn:focus{
  background-color: var(--ocean-color);
+ border: 4px;
 }
 /*ASIDE*/
 .aside {
@@ -104,8 +160,11 @@ cursor: pointer;
 .aside-title {
 }
 .aside-list {
+    display: flex;
+    gap: 24px;
 }
 .aside-item {
+    flex-basis: calc((100% - 24px * 3)/4);
 }
 .aside-subject {
     color: var(--navyblue-color);
@@ -115,6 +174,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 }
 .aside-text {
+    margin-top: 8px;
     color: var(--slate-color);
     font-size: 16px;
 line-height: 1.5;
@@ -125,6 +185,7 @@ letter-spacing: 0.02em;
     background-color: var(--white-background);
 }
 .work-title {
+    padding-top: 120px;
     color: var(--navyblue-color);
     font-size: 36px;
 font-weight: 700;
@@ -134,14 +195,20 @@ text-transform: capitalize;
 text-align: center;
 }
 .work-list {
+    display: flex;
+    gap: 24px;
+    margin-top: 72px;
+    padding-bottom: 120px;
 }
 .work-item {
+    flex-basis: calc((100% - 24px * 2)/3);
 }
 /*TEAM */
 .team {
     background-color: var(--cloud-background);
 }
 .team-title {
+    padding-top: 120px;
     color: var(--navyblue-color);
     font-size: 36px;
 font-weight: 700;
@@ -150,9 +217,14 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 text-align: center;
 }
-team-list{
+.team-list{
+    margin-top: 72px;
+    display: flex;
+    gap: 24px;
+    padding-bottom: 120px;
 }
 .team-item {
+    flex-basis: calc((100% - 24px * 3)/4);
     background-color: var(--white-background);
 }
 .team-subject {
@@ -197,6 +269,9 @@ letter-spacing: 0.02em;
 .content-title {
 }
 .content-list {
+    justify-content: center;
+    display: flex;
+    gap: 24px;
 }
 .content-item {
 }
@@ -209,9 +284,13 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 background: var(--cloud, #F4F4FD);
 cursor: pointer;
+border-radius: 4px;
+border: 1px solid var(--cornflower-color);
+padding: 12px 24px;
 }
 .content-btn:hover,
 .content-btn:focus{
+    border-radius: 4px;
     color: var(--white-background);
     background-color: var(--ocean-color);
 }
@@ -219,9 +298,16 @@ cursor: pointer;
 .projcts {
 }
 .projcts-list {
+    margin-top: 72px;
+    margin-bottom: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+
 }
 .projcts-item{
-
+flex-basis: calc((100% - 24px * 2)/3);
 }
 .projcts-submit {
     color: var(--navyblue-color);
