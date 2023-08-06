@@ -36,7 +36,6 @@ ol{
     width: 1158px;
     display: flex;
     justify-content: space-between;
-    padding: 24px 0;
 }
 img{
     max-width: 100%;
@@ -70,8 +69,10 @@ list-style: none;
 .header-nav {
     display: flex;
     align-items: center;
+    padding: 24px 0;
 }
 .header-nav-logo {
+    display: inline-block;
     color: var(--iris-color);
     font-family: Raleway,  sans-serif;
 font-size: 18px;
@@ -91,6 +92,7 @@ margin-right: 76px;
 
 }
 .header-nav-link {
+    display: inline-block;
     color: var(--navyblue-color);
     font-size: 16px;
 font-weight: 500;
@@ -107,8 +109,10 @@ letter-spacing: 0.02em;
 .address-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 .address-link {
+    display: inline-block;
     color: var(--slate-color);
     font-size: 16px;
 line-height: 1.5;
