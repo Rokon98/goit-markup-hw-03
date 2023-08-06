@@ -65,11 +65,11 @@ list-style: none;
 .header {
     background-color: var(--white-background);
     border-bottom: 1px solid var(--cornflower-color);
+    padding: 24px 0;
 }
 .header-nav {
     display: flex;
     align-items: center;
-    padding: 24px 0;
 }
 .header-nav-logo {
     display: inline-block;
@@ -109,7 +109,6 @@ letter-spacing: 0.02em;
 .address-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 .address-link {
     display: inline-block;
