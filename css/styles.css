@@ -38,9 +38,9 @@ ol{
     justify-content: space-between;
 }
 .img{
-    display: block;
     max-width: 100%;
     height: auto;
+    display: block;
 }
 .link{
     text-decoration: none;
@@ -79,6 +79,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 margin-right: 76px;
+padding: 24px 0;
 }
 .header-nav-logos{
     color: var(--navyblue-color);
@@ -130,7 +131,7 @@ padding: 188px 0;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 48px;
-    min-width: 496px;
+    max-width: 496px;
     color: var(--white-background);
     font-size: 56px;
 font-weight: 700;
@@ -242,8 +243,8 @@ text-align: center;
     background-color: var(--white-background);
 }
 .team-st{
-    padding: 32px 16px;
     border-radius: 0px 0px 4px 4px;
+    padding: 32px 0;
 background: var(--white-background);
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 
@@ -279,7 +280,7 @@ font-weight: 800;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-padding-bottom: 16px;
+margin-bottom: 16px;
 }
 .footer-logos{
     color: var(--cloud-background);
@@ -354,9 +355,9 @@ flex-basis: calc((100% - 24px * 2)/3);
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
+margin-bottom: 8px;
 }
 .projcts-text {
-    margin-top: 8px;
     color: var(--slate-color);
     font-size: 16px;
 line-height: 1.5;
