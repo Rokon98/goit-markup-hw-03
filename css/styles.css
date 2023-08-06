@@ -80,6 +80,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 margin-right: 76px;
+padding: 24px 0;
 }
 .header-nav-logos{
     color: var(--navyblue-color);
@@ -88,7 +89,6 @@ margin-right: 76px;
 .header-nav-list{
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 
 }
 .header-nav-link {
@@ -98,6 +98,7 @@ margin-right: 76px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
+padding: 24px 0;
 }
 .header-nav-link:hover,
 .header-nav-link:focus{
@@ -109,7 +110,6 @@ letter-spacing: 0.02em;
 .address-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 .address-link {
     display: block;
@@ -117,6 +117,7 @@ letter-spacing: 0.02em;
     font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+padding: 24px 0;
 
 }
 .address-link:hover,
