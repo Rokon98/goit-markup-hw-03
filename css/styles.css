@@ -26,6 +26,7 @@ p{
 ul,
 ol{
     padding: 0;
+    margin: 0;
 }
 .container{
     width: 1128px;
@@ -63,7 +64,6 @@ list-style: none;
 
 /*HEADER*/
 .header {
-    background-color: var(--white-background);
     border-bottom: 1px solid var(--cornflower-color);
 }
 .header-nav {
@@ -214,8 +214,6 @@ text-align: center;
 .work-list {
     display: flex;
     gap: 24px;
-    margin-top: 72px;
-    padding-bottom: 120px;
 }
 .work-item {
     flex-basis: calc((100% - 24px * 2)/3);
@@ -236,10 +234,8 @@ text-transform: capitalize;
 text-align: center;
 }
 .team-list{
-    margin-top: 72px;
     display: flex;
     gap: 24px;
-    padding-bottom: 120px;
 
 }
 .team-item {
@@ -335,7 +331,6 @@ padding: 12px 24px;
 .projcts {
 }
 .projcts-list {
-    margin-top: 72px;
     display: flex;
     flex-wrap: wrap;
     row-gap: 48px;
