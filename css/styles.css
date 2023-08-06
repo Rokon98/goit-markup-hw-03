@@ -36,7 +36,7 @@ ol{
     width: 1158px;
     display: flex;
     justify-content: space-between;
-    p
+    padding: 24px 0;
 }
 img{
     max-width: 100%;
@@ -70,7 +70,6 @@ list-style: none;
 .header-nav {
     display: flex;
     align-items: center;
-    padding: 24px 0;
 }
 .header-nav-logo {
     color: var(--iris-color);
@@ -108,7 +107,6 @@ letter-spacing: 0.02em;
 .address-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 .address-link {
     color: var(--slate-color);
