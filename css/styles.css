@@ -33,6 +33,7 @@ ol{
     margin: 0 auto;
 }
 .header-container{
+    width: 1158px;
     display: flex;
     justify-content: space-between;
 }
@@ -77,6 +78,7 @@ font-weight: 800;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+margin-right: 76px;
 }
 .header-nav-logos{
     color: var(--navyblue-color);
@@ -84,8 +86,8 @@ text-transform: uppercase;
 
 .header-nav-list{
     display: flex;
-    margin-left: 76px;
     gap: 40px;
+    padding: 24px 0;
 
 }
 .header-nav-link {
@@ -105,6 +107,7 @@ letter-spacing: 0.02em;
 .address-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 .address-link {
     color: var(--slate-color);
@@ -127,7 +130,7 @@ padding: 188px 0;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 48px;
-    width: 496px;
+    min-width: 496px;
     color: var(--white-background);
     font-size: 56px;
 font-weight: 700;
@@ -136,6 +139,8 @@ letter-spacing: 0.02em;
 }
 .hero-btn{
     display: block;
+    min-width: 169px;
+    height: 56px;
     margin-left: auto;
     margin-right: auto;
     font-family: 'Roboto', sans-serif;
@@ -146,6 +151,7 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 background: var(--iris, #4D5AE5);
 cursor: pointer;
+border: none;
 border-radius: 4px;
 padding: 16px 32px;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -161,11 +167,11 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 /*ASIDE*/
 .aside {
     background-color: var(--white-background);
+    padding: 120px 0;
 }
 .aside-title {
 }
 .aside-list {
-    padding-top: 120px;
     display: flex;
     gap: 24px;
 }
@@ -178,9 +184,9 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
+margin-bottom: 8px;
 }
 .aside-text {
-    margin-top: 8px;
     color: var(--slate-color);
     font-size: 16px;
 line-height: 1.5;
@@ -189,9 +195,10 @@ letter-spacing: 0.02em;
 /*WORK*/
 .work {
     background-color: var(--white-background);
+    padding: 120px 0;
 }
 .work-title {
-    padding-top: 120px;
+    margin-bottom: 72px;
     color: var(--navyblue-color);
     font-size: 36px;
 font-weight: 700;
@@ -212,9 +219,10 @@ text-align: center;
 /*TEAM */
 .team {
     background-color: var(--cloud-background);
+    padding: 120px 0;
 }
 .team-title {
-    padding-top: 120px;
+    margin-bottom: 72px;
     color: var(--navyblue-color);
     font-size: 36px;
 font-weight: 700;
@@ -246,9 +254,11 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
+text-align: center;
+margin-bottom: 8px;
 }
 .team-text {
-    margin-top: 8px;
+    text-align: center;
     color: var(--slate-color);
     font-size: 16px;
 line-height: 1.5;
@@ -257,8 +267,11 @@ letter-spacing: 0.02em;
 /*FOOTER*/
 .footer {
     background-color: var(--navyblue-color);
+    padding: 100px 0;
+    padding-right: auto;
 }
 .footer-logo {
+    display: inline-block;
     color: var(--iris-color);
     font-family: Raleway,  sans-serif;
 font-size: 18px;
@@ -266,19 +279,13 @@ font-weight: 800;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+padding-bottom: 16px;
 }
 .footer-logos{
     color: var(--cloud-background);
 }
-.footer-st{
-    width: 264px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-right: auto;
-
-}
 .footer-text {
-    margin-top: 17.5px;
+    max-width: 264px;
     color: var(--cloud-background);
     font-size: 16px;
 line-height: 1.5;
@@ -287,14 +294,15 @@ letter-spacing: 0.02em;
 /*PORTFOLIO*/
 .content {
     background-color: var(--white-background);
+    padding: 96px 0 120px 0;
 }
 .content-title {
 }
 .content-list {
-    padding-top: 96px;
     justify-content: center;
     display: flex;
     gap: 24px;
+    margin-bottom: 72px;
 }
 .content-item {
 }
@@ -310,19 +318,20 @@ cursor: pointer;
 border-radius: 4px;
 border: 1px solid var(--cornflower-color);
 padding: 12px 24px;
+
 }
 .content-btn:hover,
 .content-btn:focus{
     border-radius: 4px;
     color: var(--white-background);
     background-color: var(--ocean-color);
+    border: 1px solid transparent;
 }
 /*Projects*/
 .projcts {
 }
 .projcts-list {
     margin-top: 72px;
-    margin-bottom: 120px;
     display: flex;
     flex-wrap: wrap;
     row-gap: 48px;
