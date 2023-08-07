@@ -29,7 +29,7 @@ ol{
     margin: 0;
 }
 .container{
-    width: 1128px;
+    width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -199,7 +199,7 @@ letter-spacing: 0.02em;
 /*WORK*/
 .work {
     background-color: var(--white-background);
-    padding: 120px 0;
+    padding-bottom: 120px;
 }
 .work-title {
     margin-bottom: 72px;
@@ -221,7 +221,7 @@ text-align: center;
 /*TEAM */
 .team {
     background-color: var(--cloud-background);
-    padding: 120px 0;
+    padding-bottom: 120px;
 }
 .team-title {
     margin-bottom: 72px;
